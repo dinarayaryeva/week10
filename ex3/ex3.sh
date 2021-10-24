@@ -1,7 +1,7 @@
 #!/bin/sh
 
 touch _ex3.txt
-echo "Dinara Yaryeva" >> _ex3.txt
+echo "Dinara Yaryeva" > _ex3.txt
 chmod ugo-x _ex3.txt -v
 chmod uo+rwx _ex3.txt -v
 chmod  g=u _ex3.txt -v
